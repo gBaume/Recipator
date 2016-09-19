@@ -1,4 +1,4 @@
-package eswcss2016;
+package main;
 
 import edu.stanford.nlp.ling.CoreAnnotations.PartOfSpeechAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.SentencesAnnotation;
@@ -12,6 +12,7 @@ import edu.stanford.nlp.time.TimeAnnotator;
 import edu.stanford.nlp.util.CoreMap;
 import org.json.JSONArray;
 import org.json.JSONObject;
+import utils.EnglishNoun;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
