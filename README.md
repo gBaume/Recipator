@@ -8,9 +8,8 @@ a Hidden Markov Model based approach to generate new cooking recipes based on
 the set of existing recipes crawled from the BBC good food recipe collection. 
 In order to produce “cookable” recipes we extracted sequences of ingredients 
 and their corresponding actions from the crawled dataset by applying basic 
-Entity Detection and nearest verb extraction [Not 100% sure about the wording, 
-probably Chung knows better], . e.g, (cook, potato). To assure the novelty of 
-the recipes, we classified the ingredients using DBpedia Spotlight. 
+Entity Detection and nearest verb extraction, . e.g, (cook, potato). 
+To assure the novelty of the recipes, we classified the ingredients using DBpedia Spotlight. 
 Those sequences of type-action tuples were used as training data for the 
 Hidden Markov Model with an additional independence assumption. Each action 
 only depends on the type of ingredient whereas the next type of ingredient 
